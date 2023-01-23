@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+
+}
+
+.box{
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border: 2px solid orange;
+    background-color: aqua;
+}
+
+.box:hover{
+    background-color: yellow;
+    rotate: 360deg;
+    transform: translate(170px) scale(2);
+
+    transition: all 1s ease;
+
+}
