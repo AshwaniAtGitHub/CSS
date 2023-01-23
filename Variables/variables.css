@@ -1,0 +1,19 @@
+:root{
+    --dark-red:#8b0000;
+}
+
+/* *{
+    --dark-red:#8b0000;
+} */
+
+.container{
+    border: 1px solid red;
+    background-color: yellow;
+    height: 500px;
+    width: 300px;
+}
+.box{
+    border: 1px solid black;
+    background-color: aqua;
+    color: var(--dark-red);
+}
